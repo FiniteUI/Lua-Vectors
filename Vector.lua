@@ -3,10 +3,10 @@ Vector.__index = Vector
 Vector.__name = "Vector"
 
 -- static functions
-function Dot_Product (vector1, vector2)
+function Vector.Dot_Product (vector1, vector2)
     assert(vector1.__name == Vector.__name, "Error: argument 1 must be Vector.")
     assert(vector2.__name == Vector.__name, "Error: argument 2 must be Vector.")
-    
+
     return vector1.x * vector2.x + vector1.y * vector2.y
 end
 
