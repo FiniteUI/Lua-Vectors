@@ -2,6 +2,8 @@
 
 This is a simple Lua library for working with two dimensional vectors. I built this for use in my own projects, and will add to it as I go.
 
+This was built for LuaJIT, but should work for 5.4 and other versions as well.
+
 ## Usage
 To use the library, copy the [Vector.lua](Vector.lua) file into the same directory as the script that needs it, then use the require function to pull it in:
 ```lua
